@@ -13,7 +13,7 @@ class Configs:
 
     def get_gif_path(self):
         self.loading_file = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
-        self.loading_path = os.path.join(os.path.abspath(self.loading_file), 'Animation - Loading.gif')
+        self.loading_path = os.path.join(os.path.abspath(self.loading_file), 'AnimationLoading.gif')
 
     def open_gif(self):
         self.gif = Image.open(self.loading_path)
